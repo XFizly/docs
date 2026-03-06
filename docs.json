@@ -1,99 +1,48 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Mint Starter Kit",
+  "theme": "willow",
+  "name": "Fizly Services - Reconnect Tool",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#1669ef",
+    "light": "#1669ef",
+    "dark": "#7f09eb"
   },
-  "favicon": "/favicon.svg",
+  "favicon": {
+    "light": "/images/a_802822923b75285bef0a27d5461c2b28(2).png",
+    "dark": "/images/a_802822923b75285bef0a27d5461c2b28(2).png"
+  },
   "navigation": {
-    "tabs": [
+    "pages": [
+      "Reconnect-docs",
+      "Reconnect-docs-copied-1",
       {
-        "tab": "Guides",
-        "groups": [
-          {
-            "group": "Getting started",
-            "pages": [
-              "index",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Customization",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
+        "group": "First-time tutorials",
+        "icon": "hand-fist",
+        "pages": [
+          "how-to-make-reconnect-account",
+          "how-to-use-termux-boot",
+          "how-do-i-use-my-paid-reconnect"
         ]
       },
       {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
-          }
-        ]
+        "group": "FAQs",
+        "icon": "question",
+        "pages": []
+      },
+      {
+        "group": "Tutorials",
+        "icon": "face-smiling-hands",
+        "pages": []
+      },
+      {
+        "group": "Common fixes",
+        "icon": "do-not-enter",
+        "pages": []
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
-  },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    ]
   },
   "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
-      }
-    ],
+    "links": [],
     "primary": {
       "type": "button",
       "label": "Dashboard",
@@ -112,11 +61,24 @@
      "vscode"
    ]
   },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+  "appearance": {
+    "strict": false,
+    "default": "dark"
+  },
+  "fonts": {
+    "family": "https://www.cufonfonts.com/font/thegoodmonolith?utm_source=chatgpt.com",
+    "weight": 600,
+    "source": "https://www.cufonfonts.com/font/thegoodmonolith?utm_source=chatgpt.com",
+    "format": "woff"
+  },
+  "background": {
+    "color": {
+      "dark": "#08080c"
+    }
+  },
+  "api": {
+    "playground": {
+      "proxy": false
     }
   }
 }

@@ -16,23 +16,27 @@
       "Reconnect-docs",
       "Reconnect-docs-copied-1",
       {
-        "group": "First-time tutorials",
-        "icon": "hand-fist",
+        "group": "Tutorials",
+        "icon": "face-smiling-hands",
         "pages": [
+          "how-to-set-up-use-reconnect",
           "how-to-make-reconnect-account",
-          "how-to-use-termux-boot",
-          "how-do-i-use-my-paid-reconnect"
+          "how-to-use-termux-boot"
         ]
       },
       {
         "group": "FAQs",
         "icon": "question",
-        "pages": []
-      },
-      {
-        "group": "Tutorials",
-        "icon": "face-smiling-hands",
-        "pages": []
+        "pages": [
+          "how-do-i-use-my-paid-reconnect",
+          "requirements-recommendations",
+          "requirements-recommendations-copied-1",
+          "requirements-recommendations-copied-2",
+          "requirements-recommendations-copied-4",
+          "requirements-recommendations-copied-3",
+          "requirements-recommendations-copied-5",
+          "requirements-recommendations-copied-6"
+        ]
       },
       {
         "group": "Common fixes",
